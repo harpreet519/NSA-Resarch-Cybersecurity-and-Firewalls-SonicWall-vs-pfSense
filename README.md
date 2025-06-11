@@ -1,3 +1,3 @@
 # NSA-Resarch-Cybersecurity-and-Firewalls-SonicWall-vs-pfSense
-Comparison of a commercial firewall with a open-source one.
-In this project we had the oppurtunity to compare SonicWall, a commercial firewall with pfSense a strong open-source alternative. We based our resarch on the internet and kept important requirements needed from any firewall like cybersecurity in mind and here is the comparison.
+In the field of Cybersecurity, Firewall is a network security device that filters incoming and outgoing traffic based on security policies that has already been set in advance to secure the network for an organization and decides whether to accept, deny or drop traffic based on those security policies. In simpler words Firewall acts like a wall between a private internal network and a open Internet.
+In this project we had the oppurtunity to compare SonicWall, a commercial firewall with pfSense a strong open-source alternative. We based our resarch on the internet and learnt about the key differneces in interfaces,configurations,security features and learning value between these two firewalls and here is the comparison.
