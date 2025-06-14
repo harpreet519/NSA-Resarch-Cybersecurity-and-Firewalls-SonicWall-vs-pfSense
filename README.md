@@ -10,6 +10,7 @@ In this project we had the oppurtunity to compare SonicWall, a commercial firewa
 
 # Configuring pfSense vs SonicWall Firewall
 Both firewalls can be configured by CLI, but if users configure pfSense via CLI, then they can get more configuration options, like they could configure it by directly changing the configuration files, whereas in SonicWall Firewall, there are very few configuration options via CLI, due to which it is used to troubleshoot only. More particularly, users can get full root access and get to use all shell commands in CLI in pfSense, whereas users can use troubleshooting commands like ping in SonicWall.
+
 **SonicWall CLI limited to diagnosis**![image](https://github.com/user-attachments/assets/cb82357e-4283-4504-a854-19f6d7c21e25)
 
 
