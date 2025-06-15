@@ -14,15 +14,16 @@ Both firewalls can be configured by CLI, but if users configure pfSense via CLI,
 **SonicWall CLI limited to diagnosis**![image](https://github.com/user-attachments/assets/cb82357e-4283-4504-a854-19f6d7c21e25)
 **pfSense CLI have full Shell commands** ![image](https://github.com/user-attachments/assets/137b8959-d841-4dcb-9687-99d61ffe3b53)
 
-(Reference : 
-https://www.sonicwall.com/support/knowledge-base/using-top-level-cli-commands-on-the-sonicwall-via-ssh-using-putty/170505807816151
-https://docs.netgate.com/pfsense/en/latest/config/console-menu.html)
+(Reference :
+  - 🔗 https://www.sonicwall.com/support/knowledge-base/using-top-level-cli-commands-on-the-sonicwall-via-ssh-using-putty/170505807816151
+  
+  - 🔗https://docs.netgate.com/pfsense/en/latest/config/console-menu.html)
 
 
 # Interfaces of pfSense vs SonicWall Firewall
 **Physical Interfaces** - Though the ports are labelled on pfSense Firewall, still users can change the role of these ports in the web interface or during setup( users can decide which pirt will be used for lan or wan irrespective of label on hardware). On the other hand, the ports labelled for lan or wan should be used in same way in SonicWall Firewall(exception: new sonicwall offers this override but old do not)
 
-#  COMPARISON: SONICWALL vs. pfSENSE
+#  Security Features: SONICWALL vs. pfSENSE
 
 | *Feature*              | *SonicWall*                                                    | *pfSense*                                               |
 |--------------------------|------------------------------------------------------------------|-----------------------------------------------------------|
