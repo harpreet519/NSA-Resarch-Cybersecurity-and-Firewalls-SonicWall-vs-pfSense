@@ -21,3 +21,22 @@ https://docs.netgate.com/pfsense/en/latest/config/console-menu.html)
 
 # Interfaces of pfSense vs SonicWall Firewall
 **Physical Interfaces** - Though the ports are labelled on pfSense Firewall, still users can change the role of these ports in the web interface or during setup( users can decide which pirt will be used for lan or wan irrespective of label on hardware). On the other hand, the ports labelled for lan or wan should be used in same way in SonicWall Firewall(exception: new sonicwall offers this override but old do not)
+
+#  COMPARISON: SONICWALL vs. pfSENSE
+
+| *Feature*              | *SonicWall*                                                    | *pfSense*                                               |
+|--------------------------|------------------------------------------------------------------|-----------------------------------------------------------|
+| *Deep Packet Inspection* | Already included, scans full data in each packet                 | Not included by default; needs tools like Snort or Suricata |
+| *Intrusion Prevention* | Built-in, updates on its own to catch new threats               | Can be added with Snort or Suricata, but setup is manual  |
+| *SSL/TLS Decryption*   | Can read encrypted traffic right away                            | Needs Squid and manual setup                              |
+| *IP/DNS Blocking*      | Can block harmful IPs and websites out of the box               | Uses pfBlockerNG to do similar blocking                   |
+| *Application Control*  | Easy to block or manage specific apps                           | Limited control; needs custom rule setup                  |
+| *Firewall Tuning*      | Some settings can be changed, but it's limited                  | Full control to tweak settings, NAT, and firewall rules   |
+| *Stateful Inspection*  | Tracks active connections by default                            | Same tracking feature, also built-in                      |
+
+---
+
+###  Sources
+
+- 🔗 [SonicWall Firewalls](https://www.sonicwall.com/products/firewalls/)
+- 🔗 [pfSense Documentation – Netgate](https://docs.netgate.com/pfsense/en/latest/)
