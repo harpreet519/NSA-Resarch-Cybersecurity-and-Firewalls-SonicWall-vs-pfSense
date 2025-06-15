@@ -8,7 +8,7 @@ In this project we had the oppurtunity to compare SonicWall, a commercial firewa
 
 **pfSense** - While, on the other hand, pfSense is and open-source firewall. This is more flexible and much easy for the users to work on it. It has a benefit that users can get complete control over the configurations. This firewall is good for those users eho want to learn in deep about the networking and know the advanced features, do the experiments, work on the real-world and also do some troubleshooting.
 
-# Configuring pfSense vs SonicWall Firewall
+# Configuring: pfSense vs SonicWall Firewall
 Both firewalls can be configured by CLI, but if users configure pfSense via CLI, then they can get more configuration options, like they could configure it by directly changing the configuration files, whereas in SonicWall Firewall, there are very few configuration options via CLI, due to which it is used to troubleshoot only. More particularly, users can get full root access and get to use all shell commands in CLI in pfSense, whereas users can use troubleshooting commands like ping in SonicWall.
 
 **SonicWall CLI limited to diagnosis**![image](https://github.com/user-attachments/assets/cb82357e-4283-4504-a854-19f6d7c21e25)
@@ -16,11 +16,10 @@ Both firewalls can be configured by CLI, but if users configure pfSense via CLI,
 
 (Reference :
   - 🔗 https://www.sonicwall.com/support/knowledge-base/using-top-level-cli-commands-on-the-sonicwall-via-ssh-using-putty/170505807816151
-  
   - 🔗https://docs.netgate.com/pfsense/en/latest/config/console-menu.html)
 
 
-# Interfaces of pfSense vs SonicWall Firewall
+# Interfaces: pfSense vs SonicWall Firewall
 **Physical Interfaces** - Though the ports are labelled on pfSense Firewall, still users can change the role of these ports in the web interface or during setup( users can decide which pirt will be used for lan or wan irrespective of label on hardware). On the other hand, the ports labelled for lan or wan should be used in same way in SonicWall Firewall(exception: new sonicwall offers this override but old do not)
 
 #  Security Features: SONICWALL vs. pfSENSE
